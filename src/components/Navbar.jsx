@@ -9,8 +9,13 @@ const NavBar = () => {
           <img src={logo} alt = "logo" />
         </div>
         <div className="m-8 flex items-center justify-center gap-4 text-2xl">
-          <FaLinkedin />
-          <FaGoogleScholar/>
+          
+          <a  href="https://ee.linkedin.com/in/boserupak1" target="_blank">
+            <FaLinkedin/>
+          </a>
+          <a href="https://scholar.google.com/citations?user=TvYWlecAAAAJ&hl=en" target="_blank">
+            <FaGoogleScholar/>
+          </a>
         </div>
     </nav>
   )
