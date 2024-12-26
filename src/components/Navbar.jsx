@@ -1,4 +1,4 @@
-import logo from "../assets/kevinRushLogo.png"
+import logo from "../assets/rupakBoseLogo.png"
 import { FaLinkedin } from "react-icons/fa"
 import { FaGoogleScholar } from "react-icons/fa6"
 
