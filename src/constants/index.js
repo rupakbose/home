@@ -35,7 +35,7 @@ export const EXPERIENCES = [
   
 ];
 
-export const PROJECTS = [
+export const PUBLICATIONS = [
   {
     title: "Hyperspectral-LiDAR Data fusion using convolutional transformers",
     image: project1,
