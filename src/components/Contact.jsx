@@ -31,7 +31,7 @@ const Contact = () => {
         whileInView={{opacity: 1, y: 0}}
         initial={{opacity: 0, y: -100}}
         transition={{duration: 1}}
-        href='#' className='border-b'>
+        href='mailto:boserupak1@gmail.com' className='border-b'>
         {CONTACT.email}
 
         </motion.a>
