@@ -46,6 +46,17 @@ export const PUBLICATIONS = [
   
 ];
 
+export const PROJECTS = [
+  {
+    title: "Hyperspectral-LiDAR Data fusion using convolutional transformers",
+    image: project1,
+    description:
+      "Two headed dragons: Multimodal fusion and cross modal transactions | IEEE International Conference on Image Processing (2021)",
+    technologies: ["HSI", "LiDAR", "TensorFlow", "LULC"],
+  },
+  
+];
+
 export const CONTACT = {
   address: "Strasbourg, France",
   phoneNo: "+33 7 4942 9034",
