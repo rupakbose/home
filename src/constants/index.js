@@ -23,7 +23,7 @@ export const EXPERIENCES = [
     role: "Team Lead - GenAI",
     company: "IHU, Strasbourg",
     description: `Led a 5+ team of researchers, research interns and clinicians in developing and maintaining text based image/video generation models using generative algorithms. Additionally led the team on identification of intraoperative adverse event detection in limited label scenario`,
-    technologies: ["Transformers", "PyTorch", "DDP", "Mixed-precision", "Language models"],
+    technologies: ["Transformers", "PyTorch", "DDP", "Mixed-precision", "Language models", "DDPM"],
   },
   {
     year: "2022 - 2022",
