@@ -1,5 +1,5 @@
 import project1 from "../assets/projects/project-1b.jpg";
-import project2 from "../assets/projects/project-2.jpg";
+import project2 from "../assets/projects/sbir.jpg";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
 
@@ -42,6 +42,13 @@ export const PUBLICATIONS = [
     description:
       "Two headed dragons: Multimodal fusion and cross modal transactions | IEEE International Conference on Image Processing (2021)",
     technologies: ["HSI", "LiDAR", "TensorFlow", "LULC"],
+  },
+  {
+    title: "Cross modal retrieval with limited annotations | Sketch - MD - SAR - Text",
+    image: project2,
+    description:
+      "Zero-shot cross-modal retrieval for remote sensing images with minimal supervision | IEEE Transactions on Geoscience and Remote Sensing",
+    technologies: ["Sentinel1", "Sentinel2", "Text", "Cross modal Retrieval"],
   },
   
 ];
