@@ -44,7 +44,7 @@ export const PUBLICATIONS = [
     technologies: ["HSI", "LiDAR", "TensorFlow", "LULC"],
   },
   {
-    title: "Cross modal retrieval with limited annotations | Sketch - MD - SAR - Text",
+    title: "Cross modal retrieval with limited annotations | Sketch - MS - SAR - Text",
     image: project2,
     description:
       "Zero-shot cross-modal retrieval for remote sensing images with minimal supervision | IEEE Transactions on Geoscience and Remote Sensing",
