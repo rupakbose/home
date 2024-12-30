@@ -21,8 +21,8 @@ const Publications = () => {
                     className="w-full lg:w-1/4">
                         <img 
                         src = {publication.image}
-                        width={150}
-                        height={150}
+                        width={200}
+                        height={200}
                         alt={publication.title}
                         className="mb-6 rounded"
                         />

@@ -1,7 +1,8 @@
-import project1 from "../assets/projects/project-1b.jpg";
-import project2 from "../assets/projects/sbir.jpg";
-import project3 from "../assets/projects/project-3.jpg";
-import project4 from "../assets/projects/project-4.jpg";
+import Pub1 from "../assets/Pub/project-1b.jpg";
+import Pub2 from "../assets/Pub/sbir.jpg";
+import Pub3 from "../assets/Pub/SR.jpg";
+import Pub4 from "../assets/Pub/color.jpg";
+
 
 
 export const HERO_CONTENT = `I'm a machine learning researcher that specializes on creating robust and interpretable AI systems
@@ -38,16 +39,30 @@ export const EXPERIENCES = [
 export const PUBLICATIONS = [
   {
     title: "Hyperspectral-LiDAR Data fusion using convolutional transformers",
-    image: project1,
+    image: Pub1,
     description:
       "Two headed dragons: Multimodal fusion and cross modal transactions | IEEE International Conference on Image Processing (2021)",
     technologies: ["HSI", "LiDAR", "TensorFlow", "LULC"],
   },
   {
     title: "Cross modal retrieval with limited annotations | Sketch - MS - SAR - Text",
-    image: project2,
+    image: Pub2,
     description:
       "Zero-shot cross-modal retrieval for remote sensing images with minimal supervision | IEEE Transactions on Geoscience and Remote Sensing",
+    technologies: ["Sentinel1", "Sentinel2", "Text", "Cross modal Retrieval"],
+  },
+  {
+    title: "Image Super-Resolution at EO scale for 4x compression",
+    image: Pub3,
+    description:
+      "Zero-shot remote sensing image super-resolution based on image continuity and self tessellations | DAGM German Conference on Pattern Recognition",
+    technologies: ["Sentinel1", "Sentinel2", "Text", "Cross modal Retrieval"],
+  },
+  {
+    title: "LULC based satellite image colorisation based on dual scale attention mechanism",
+    image: Pub4,
+    description:
+      "DARK: Few-shot remote sensing colorization using label conditioned color injection | IEEE Geoscience and Remote Sensing Letters",
     technologies: ["Sentinel1", "Sentinel2", "Text", "Cross modal Retrieval"],
   },
   
@@ -56,7 +71,7 @@ export const PUBLICATIONS = [
 export const PROJECTS = [
   {
     title: "Hyperspectral-LiDAR Data fusion using convolutional transformers",
-    image: project1,
+    image: Pub1,
     description:
       "Two headed dragons: Multimodal fusion and cross modal transactions | IEEE International Conference on Image Processing (2021)",
     technologies: ["HSI", "LiDAR", "TensorFlow", "LULC"],
