@@ -17,6 +17,9 @@ const Navbar = () => {
           <a href="https://scholar.google.com/citations?user=TvYWlecAAAAJ&hl=en" target="_blank">
             <FaGoogleScholar/>
           </a>
+          <a href="https://scholar.google.com/citations?user=TvYWlecAAAAJ&hl=en" target="_blank">
+            <FaGoogleScholar/>
+          </a>
         </div>
     </nav>
   )
