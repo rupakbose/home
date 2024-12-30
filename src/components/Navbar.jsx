@@ -1,6 +1,8 @@
 import logo from "../assets/rupakBoseLogo.png"
 import { FaLinkedin } from "react-icons/fa"
 import { FaGoogleScholar } from "react-icons/fa6"
+// import {Projects} from '../pages/Projects'
+ import { Link } from "react-router-dom"
 
 const Navbar = () => {
   return (
@@ -9,7 +11,6 @@ const Navbar = () => {
           <img src={logo} alt = "logo" />
         </div>
         <div className="m-8 flex items-center justify-center gap-4 text-2xl">
-          
           <a  href="https://ee.linkedin.com/in/boserupak1" target="_blank">
             <FaLinkedin/>
           </a>
