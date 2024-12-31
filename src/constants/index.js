@@ -23,16 +23,33 @@ export const EXPERIENCES = [
     year: "2022 - Present",
     role: "Team Lead - GenAI",
     company: "IHU, Strasbourg",
-    description: `Led a 5+ team of researchers, research interns and clinicians in developing and maintaining text based image/video generation models using generative algorithms. Additionally led the team on identification of intraoperative adverse event detection in limited label scenario`,
+    description: ["Led a team of 7+ researchers, interns, and clinicians to develop surgical text-to-image generation models, proposing baseline selection, evaluation metrics, and human evaluation with 75+ participants in a gamified setup.",
+      "Implemented advanced generative models (VAEs, GANs, Diffusion models) from scratch, driving innovation in surgical imaging.",
+      "Formulated an extension for paired image-mask generation as causal input for video generation models, optimizing model convergence by 4x.",
+      "Supervised a research intern to design a novel image-mask pair generation model and implemented evaluation metrics for class alignment.",
+      "Proposed and implemented text-controlled image-mask pair generation with metrics such as FID, KID, SFID, SKID, and LPIPS to monitor quality.",
+      "Led a team of 5 members in detecting and classifying intra-operative adverse events, introducing clinically relevant metrics and sampling-based algorithms.",
+      "Technically supervised a postdoctoral researcher on few-shot transformer-based modeling for IAE classification and grading, setting up sensitivity tests.",
+    ],
     technologies: ["Transformers", "PyTorch", "DDP", "Mixed-precision", "LLMs", "DDPM"],
   },
   {
-    year: "2022 - 2022",
+    year: "22022 - 2022",
     role: "Machine Learning Scientist",
     company: "Microsoft [EU]",
-    description: `Contributed to distributed training of conditional denoising model for speech enhancement for low frequency and high frequency lanhuages. Conducted spectral analysis based on personal vocal signatures for Fourier DL models`,
-    technologies: ["PyTorch", "DDP", "TorchAudio"],
+    description: ["Contributed to distributed training of conditional denoising model for speech enhancement for low frequency and high frequency languages.",
+      "Conducted spectral analysis based on personal vocal signatures for Fourier DL models.",
+    ],
+    technologies: ["Transformers", "PyTorch", "DDP", "Mixed-precision", "LLMs", "DDPM"],
   },
+  
+  // {
+  //   year: "2022 - 2022",
+  //   role: "Machine Learning Scientist",
+  //   company: "Microsoft [EU]",
+  //   description: `Contributed to distributed training of conditional denoising model for speech enhancement for low frequency and high frequency lanhuages. Conducted spectral analysis based on personal vocal signatures for Fourier DL models`,
+  //   technologies: ["PyTorch", "DDP", "TorchAudio"],
+  // },
   
 ];
 

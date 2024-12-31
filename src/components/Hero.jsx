@@ -1,4 +1,4 @@
-import {HERO_CONTENT } from "../constants"
+import {HERO_CONTENT, ABOUT_TEXT } from "../constants"
 import profilePic from "../assets/rupakBoseProfile.jpg"
 import { motion } from "motion/react"
 
@@ -34,7 +34,7 @@ const Hero = () => {
                     initial="hidden"
                     animate="visible"
                     className="my-2 max-w-xl py-6 font-light tracking-tighter text-justify">
-                    {HERO_CONTENT}
+                    {ABOUT_TEXT}
                     </motion.p>
                 </div>
             </div>
