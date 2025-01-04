@@ -34,7 +34,7 @@ export const EXPERIENCES = [
     technologies: ["Transformers", "PyTorch", "DDP", "Mixed-precision", "LLMs", "DDPM"],
   },
   {
-    year: "22022 - 2022",
+    year: "2022 - 2022",
     role: "Machine Learning Scientist",
     company: "Microsoft [EU]",
     description: ["Contributed to distributed training of conditional denoising model for speech enhancement for low frequency and high frequency languages.",
