@@ -43,6 +43,13 @@ export const EXPERIENCES = [
     technologies: ["Transformers", "PyTorch", "DDP", "Mixed-precision", "LLMs", "DDPM"],
   },
   
+  // {
+  //   year: "2022 - 2022",
+  //   role: "Machine Learning Scientist",
+  //   company: "Microsoft [EU]",
+  //   description: `Contributed to distributed training of conditional denoising model for speech enhancement for low frequency and high frequency lanhuages. Conducted spectral analysis based on personal vocal signatures for Fourier DL models`,
+  //   technologies: ["PyTorch", "DDP", "TorchAudio"],
+  // },
   
 ];
 
