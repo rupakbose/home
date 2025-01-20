@@ -1,5 +1,5 @@
 import React from 'react'
-import aboutImg from '../assets/about1.jpg'
+// import aboutImg from '../assets/about1.jpg'
 import { ABOUT_TEXT } from '../constants'
 import { motion } from 'motion/react'
 
@@ -16,12 +16,12 @@ const About = () => {
             transition={{duration: 0.5}}
             className='w-full lg:w-1/2 lg:p-8'>
                 <div className='flex items-center justify-center'>
-                    <img
+                    {/* <img
                     className='rounded-2xl'
                     src = {aboutImg}
                     alt='About' 
                     width="400"
-                    height="400"/>
+                    height="400"/> */}
                 </div>
             </motion.div>
             <motion.div 
