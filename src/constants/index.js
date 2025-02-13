@@ -22,7 +22,7 @@ export const EXPERIENCES = [
   {
     year: "2022 - Present",
     role: "Team Lead - GenAI",
-    company: "IHU, Strasbourg",
+    company: "Unistra, Strasbourg",
     description: ["Led a team of 7+ researchers, interns, and clinicians to develop surgical text-to-image generation models, proposing baseline selection, evaluation metrics, and human evaluation with 75+ participants in a gamified setup.",
       "Implemented advanced generative models (VAEs, GANs, Diffusion models) from scratch, driving innovation in surgical imaging.",
       "Formulated an extension for paired image-mask generation as causal input for video generation models, optimizing model convergence by 4x.",
